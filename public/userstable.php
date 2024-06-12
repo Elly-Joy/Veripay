@@ -53,7 +53,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Merchants Records</h1>
+        <h1>Users Records</h1>
         <table>
             <tr>
                 <th>Merchant ID</th>
@@ -62,7 +62,7 @@
                 <th>Phone</th>
                 <th>Address</th>
                 <th>User Type</th>
-                <th>Email Verified At</th>
+
                 <th>Password</th>
                
                 <th>Created At</th>
@@ -89,7 +89,7 @@
                 echo "<td>" . $row['phone'] . "</td>";
                 echo "<td>" . $row['address'] . "</td>";
                 echo "<td>" . $row['usertype'] . "</td>";
-                echo "<td>" . $row['email_verified_at'] . "</td>";
+                
                 echo "<td>" . $row['password'] . "</td>";
                
                 echo "<td>" . $row['created_at'] . "</td>";

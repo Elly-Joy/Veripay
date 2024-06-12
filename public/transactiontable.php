@@ -60,10 +60,6 @@
                 <th>TransAmount</th>
                 <th>BusinessShortCode</th>
                 <th>BillRefNumber</th>
-                <th>InvoiceNumber</th>
-                <th>OrgAccountBalance</th>
-                <th>ThirdPartyTransID</th>
-                <th>MSISDN</th>
                 <th>FirstName</th>
                 <th>MiddleName</th>
                 <th>LastName</th>
@@ -88,10 +84,6 @@ while ($row = mysqli_fetch_assoc($result)) {
     echo "<td>" . $row['TransAmount'] . "</td>";
     echo "<td>" . $row['BusinessShortCode'] . "</td>";
     echo "<td>" . $row['BillRefNumber'] . "</td>";
-    echo "<td>" . $row['InvoiceNumber'] . "</td>";
-    echo "<td>" . $row['OrgAccountBalance'] . "</td>";
-    echo "<td>" . $row['ThirdPartyTransID'] . "</td>";
-    echo "<td>" . $row['MSISDN'] . "</td>";
     echo "<td>" . $row['FirstName'] . "</td>";
     echo "<td>" . $row['MiddleName'] . "</td>";
     echo "<td>" . $row['LastName'] . "</td>";

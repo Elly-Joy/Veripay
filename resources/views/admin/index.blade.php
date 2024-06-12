@@ -66,7 +66,7 @@
 <div class="container">
         <h1>Admin Dashboard</h1>
         <ul>
-            <li><a href="userstable.php">View Merchants</a></li>
+            <li><a href="userstable.php">View Users</a></li>
             <li><a href="transactiontable.php">View Transactions</a></li>
             <li><a href="paymentverifier.php">Send Verification Request</a></li>
         </ul>
