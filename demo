@@ -45,7 +45,46 @@ use App\Http\Controllers\payments\mpesa\MPESAResponsesController;
 //blank
 //blank//blank
 //blank
-//blank//blank
+//blank
+//blank
+//blank
+//blank
+//blank
+//blank
+//blank
+//blank
+//blank
+
+use App\Actions\Fortify\CreateNewUser;
+use App\Actions\Fortify\ResetUserPassword;
+
+//blank
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\payments\mpesa\MPESAResponsesController;
+//blank
+//blank
+//blank
+//blank
+//blank
+//blank
+//blank
+//blank
+//blank
+//blank
+//blank
+//blank
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\payments\mpesa\MPESAResponsesController;
+//blank
+//blank
+//blank
+//blank
+//blank
+//blank
 //blank
 //blank
 //blank
@@ -56,6 +95,12 @@ use App\Http\Controllers\payments\mpesa\MPESAResponsesController;
 //blank//blank
 //blank
 //blank
+//blank
+//blank//blank
+//blank
+//blank
+//blank
+//blank//blank
 //blank
 //blank
 //blank
