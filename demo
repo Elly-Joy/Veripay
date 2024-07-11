@@ -1,7 +1,7 @@
 use App\Actions\Fortify\CreateNewUser;
 use App\Actions\Fortify\ResetUserPassword;
 
-
+<?php
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
