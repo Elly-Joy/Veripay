@@ -25,6 +25,6 @@
         "webpack-cli": "^5.1.4"
     },
     "dependencies": {
-        "@vitejs/plugin-vue": "^5.0.5"
+        "@vitejs/plugin-vue": "^5.1.1"
     }
 }
